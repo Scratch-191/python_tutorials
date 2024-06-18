@@ -28,5 +28,33 @@ else:
     print(f"{x} is less than {y}")  
          
          
+    a = 200
+    b = 33
+    if b > a:
+        print("b is greater than a")
+    elif a == b:
+        print("a and b are equal")
+    else:
+        print("a is greater than b")
+
     
+## Using the 'and' operator
+x = 5
+y = 10
+z = 15
+if x < y and x < z:
+    print("Both conditions are True")
+    
+## Using the 'or' operator
+x = 5
+y = 10
+z = 15
+if x < y or x < z:
+    print("At least one of the conditions is True")
+    
+## Using the 'not' operator
+x = 5
+print(not(x > 3 and x < 10))
+
+
     
